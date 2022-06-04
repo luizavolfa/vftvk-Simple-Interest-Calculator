@@ -30,7 +30,7 @@ function SliderValue()
 {
     var slider = document.getElementById("rate");
     var output = document.getElementById("rate_display");
-    output.innerHTML = slider.value;
+    output.innerHTML = slider.value +"%";
 
     slider.oninput = function()
     {
