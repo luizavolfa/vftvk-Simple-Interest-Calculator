@@ -6,6 +6,7 @@ function calculate()
     if (p < 0)
     {
         alert("Insert a positive number ")
+        document.getElementById("amount").focus();
     }
     else
     { 
